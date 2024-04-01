@@ -15,13 +15,13 @@ ALLOWED_HOSTS = ['*'] if DEBUG else [os.getenv('ALLOWED_HOSTS')]
 INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
-    'core',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'core',
 ]
 
 MIDDLEWARE = [
